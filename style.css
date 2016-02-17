@@ -1,0 +1,138 @@
+body,html  {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	width:100%;
+	background-color:#f9f9f9;
+}
+.wrapper{
+	width: 1064px;
+	height:100%;
+	background-color: #fff;
+	margin: 0px auto;
+	font-family: Tahoma;
+	padding-bottom: 65px;
+}
+.clearfix:after{
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.header{}
+.fit{
+	padding: 45px;
+	font-family: Tahoma;
+	font-size: 40px;
+	
+}
+.mi{
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 45px;
+}
+.tov{
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background-color: #323232;
+}
+.o_nas{
+	padding-left: 55px;
+}
+.menu_hor{
+	color: #fff;
+	background-color: #535353;
+	margin-left: 45px;
+	margin-right: 45px;
+	}
+.main{
+	/*background-color: #87abd2;*/
+	/*height: 500px;*/
+	margin-left: 45px;
+	margin-right: 45px;
+}
+.menu_vert{
+	float:left;
+	width: 27%;
+	height: 100px;
+	margin-top: 45px;
+	color: #656363;
+	}
+.list{
+	list-style-type: none;
+	font-size: 0.9em;
+	list-style-position: outside;
+	margin: 0px;
+	padding: 0px;
+}
+.vert_mi{
+	border-right: 1px solid #656363;
+	border-left: 1px solid #656363;
+	border-bottom: 1px solid #656363;
+	padding: 10px;
+	padding-left: 30px;
+}
+.first{
+	border-top: 1px solid #656363;
+}
+.tel{
+	background-color: #f9f9f9;
+	color: #323232;
+	padding-left: 40px;
+}
+.content{
+	display: inline-block;
+	width: 68.3%;
+	/*height: 500px;*/
+	margin-left: 45px;
+	padding-top: 45px;
+	padding-bottom: 60px;
+}
+.bike{
+	background-image: url(byke.png);
+	width: 665px;
+	height: 391px;
+	border:1px solid #656363;
+}
+.lorem{
+	padding-top: 45px;
+	padding-left: 25px;
+	padding-right: 25px;
+	line-height: 27px;		
+}
+.footer{
+	width: 91%;
+	display: table;
+	border: none;
+	border-collapse:collapse;
+	background-color: #e1e1e1;
+	/*margin-bottom: 65px;*/
+	margin-left: 45px;
+	margin-right: 45px;
+}
+.menu_hor2{
+	display: table-row;
+	
+}
+.m_h2_i{
+	display: table-cell;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 70px;
+}
+.r_s{
+	padding-right: 25px;
+	text-align: right;
+}
+.und{
+	text-decoration:underline;
+}
+
+
+
+
+
