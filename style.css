@@ -12,6 +12,8 @@ body,html  {
 	margin: 0px auto;
 	font-family: Tahoma;
 	padding-bottom: 65px;
+    border-left: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
 }
 .clearfix:after{
     content: "";
@@ -24,43 +26,46 @@ body,html  {
 .fit{
 	padding: 45px;
 	font-family: Tahoma;
-	font-size: 40px;
-	
+	font-size: 40px;	
 }
-.mi{
+.menu_item{
 	display: inline-block;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 30px;
 	padding-right: 45px;
 }
-.tov{
-	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
-	background-color: #323232;
-}
-.o_nas{
-	padding-left: 55px;
+.pad_left{
+	padding-left: 50px;
 }
 .menu_hor{
 	color: #fff;
 	background-color: #535353;
 	margin-left: 45px;
 	margin-right: 45px;
-	}
+}
+.menu_item a, .menu_item a:hover, .menu_item a:active, .menu_item a:link, .menu_item a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+.empty{
+	display: inline-block;
+}
+.menu_item:hover{
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background-color: #323232;
+}
 .main{
-	/*background-color: #87abd2;*/
-	/*height: 500px;*/
 	margin-left: 45px;
 	margin-right: 45px;
 }
 .menu_vert{
-	float:left;
+    float:left;
 	width: 27%;
 	height: 100px;
 	margin-top: 45px;
-	color: #656363;
-	}
+}
 .list{
 	list-style-type: none;
 	font-size: 0.9em;
@@ -69,25 +74,31 @@ body,html  {
 	padding: 0px;
 }
 .vert_mi{
-	border-right: 1px solid #656363;
-	border-left: 1px solid #656363;
-	border-bottom: 1px solid #656363;
+	border-right: 1px solid #c8c8c8;
+	border-left: 1px solid #c8c8c8;
+	border-bottom: 1px solid #c8c8c8;
 	padding: 10px;
 	padding-left: 30px;
+    color: #656363;
 }
 .first{
-	border-top: 1px solid #656363;
+	border-top: 1px solid #c8c8c8;
 }
-.tel{
-	background-color: #f9f9f9;
-	color: #323232;
+.vert_mi a{
+   color: #656363;
+    text-decoration: none;
+}
+.vert_mi:hover{
+    background-color: #f9f9f9;    
 	padding-left: 40px;
+    font-weight: 600;
+    border-right: none;
 }
 .content{
-	display: inline-block;
+	float: right;
 	width: 68.3%;
-	/*height: 500px;*/
 	margin-left: 45px;
+    margin-left: 45px;
 	padding-top: 45px;
 	padding-bottom: 60px;
 }
@@ -95,7 +106,7 @@ body,html  {
 	background-image: url(byke.png);
 	width: 665px;
 	height: 391px;
-	border:1px solid #656363;
+	border:1px solid #c8c8c8;
 }
 .lorem{
 	padding-top: 45px;
@@ -109,7 +120,6 @@ body,html  {
 	border: none;
 	border-collapse:collapse;
 	background-color: #e1e1e1;
-	/*margin-bottom: 65px;*/
 	margin-left: 45px;
 	margin-right: 45px;
 }
@@ -128,10 +138,14 @@ body,html  {
 	padding-right: 25px;
 	text-align: right;
 }
-.und{
-	text-decoration:underline;
+.m_h2_i a{
+    color: #000;
+    text-decoration: none;
 }
-
+.m_h2_i a:hover{
+    color: #000;
+    text-decoration: underline;
+}
 
 
 
